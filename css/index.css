@@ -168,11 +168,9 @@ h3 {
   font-size: 1rem;
   padding: 0 2%;
 }
-hr {
-  border-top: 3px solid black;
-  width: 20%;
-  text-align: left;
-  margin-left: 0;
+.main-container {
+  width: 90%;
+  margin: 0 auto;
 }
 .top-container {
   background-color: pink;
@@ -262,6 +260,7 @@ hr {
 @media (max-width: 500px) {
   .bottom-container .left-container {
     width: 90%;
+    padding: 0;
   }
 }
 .bottom-container .right-container {
