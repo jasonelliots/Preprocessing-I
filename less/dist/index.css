@@ -155,6 +155,13 @@ body {
 body {
   background-color: white;
 }
+h1 {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-size: 2.8rem;
+  letter-spacing: 0.3em;
+  padding: 2%;
+}
 h2 {
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
@@ -184,8 +191,7 @@ hr {
 @media (max-width: 500px) {
   .top-container {
     flex-direction: column;
-    align-items: left;
-    padding: 3%;
+    align-items: center;
   }
 }
 .top-container .bio-image {
@@ -198,6 +204,7 @@ hr {
     align-items: center;
     padding: 0;
     width: 50%;
+    align-self: -1;
   }
 }
 .top-container .heading {
@@ -205,20 +212,6 @@ hr {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-}
-.top-container .heading h1 {
-  font-family: "Oswald", sans-serif;
-  text-transform: uppercase;
-  font-size: 2.8rem;
-  letter-spacing: 0.3em;
-  padding: 2%;
-}
-@media (max-width: 500px) {
-  .top-container .heading h1 {
-    flex-direction: column;
-    align-items: left;
-    padding: 3%;
-  }
 }
 .top-container .heading nav {
   width: 60%;
@@ -229,9 +222,7 @@ hr {
 @media (max-width: 500px) {
   .top-container .heading nav {
     flex-direction: column;
-    align-items: left;
-    padding: 3%;
-    width: 100%;
+    align-items: center;
   }
 }
 .top-container .heading nav a {
@@ -249,8 +240,7 @@ hr {
 @media (max-width: 500px) {
   .bottom-container {
     flex-direction: column;
-    align-items: left;
-    padding: 3%;
+    align-items: center;
   }
 }
 .bottom-container .left-container {
