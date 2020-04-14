@@ -173,10 +173,10 @@ h3 {
   margin: 0 auto;
 }
 .top-container {
-  background-color: pink;
+  background-color: #f2c9c9;
   display: flex;
   justify-content: space-between;
-  border: 15px black solid;
+  border: 12px black solid;
   border-bottom-style: hidden;
 }
 @media (max-width: 500px) {
@@ -242,7 +242,7 @@ h3 {
 .bottom-container {
   background-color: white;
   display: flex;
-  border: 15px black solid;
+  border: 12px black solid;
 }
 @media (max-width: 500px) {
   .bottom-container {
